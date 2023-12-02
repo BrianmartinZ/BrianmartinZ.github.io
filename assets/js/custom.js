@@ -42,17 +42,9 @@
 
 		
 	/* ----------------------------------------------------------- */
-	/*  2. FEATURED SLIDE (TYPED SLIDER)
+	/*  2. FEATURED SLIDE (TYPED SLIDER) 
 	/* ----------------------------------------------------------- */
 
-		var typed = new Typed('#typed', {
-		    stringsElement: '#typed-strings',
-		    typeSpeed: 75,
-		    backSpeed: 75,
-		    startDelay: 3000,
-		    loop: true,
-		    loopCount: Infinity
-		});
 
 		
 	/* ----------------------------------------------------------- */
