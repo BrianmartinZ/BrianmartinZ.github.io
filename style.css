@@ -363,6 +363,14 @@ button:focus {
 	line-height: 1;
 }
 
+.mu-featured-area h2 {
+	font-size: 60px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 0;
+	line-height: 1;
+}
+
 .mu-featured-slider-wrapper {
 	display: inline;
 	float: left;
