@@ -359,7 +359,7 @@ button:focus {
 	font-size: 60px;
 	color: #fff;
 	font-weight: 700;
-	margin-bottom: 0;
+	margin-bottom: 30;
 	line-height: 1;
 }
 
@@ -367,7 +367,7 @@ button:focus {
 	font-size: 30px;
 	color: #fff;
 	font-weight: 300;
-	margin-top: 50;
+	margin-bottom: 0;
 	line-height: 1;
 }
 
