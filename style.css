@@ -73,6 +73,10 @@ h6 {
 	margin-top: 0;
 }
 
+.mu-heading-p {
+	color: white;
+}
+
 
 h1 {
 	font-size: 38px;
@@ -433,6 +437,7 @@ button:focus {
 	width: 100%;
 }
 
+
 .mu-about-header {
 	display: inline;
 	float: left;
@@ -460,6 +465,26 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
+	text-align: center;
+}
+
+.mu-about-content-language {
+	margin-top: 30px;
+	
+}
+
+.mu-about-content-language p {
+	margin-bottom: 2px;
+	margin-top: 10px;
+}
+
+.mu-about-content-language i {
+	color: #b94a48;
+}
+
+
+.mu-profile-img {
+	border: 7px solid #3b6490;
 }
 
 .mu-about-content-right {
@@ -467,6 +492,7 @@ button:focus {
 	float: left;
 	margin-top: 20px;
 	width: 100%;
+	text-align: center;
 }
 
 .mu-skill-progress-bar {
@@ -519,16 +545,18 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
+	text-align: center;
 }
 
 .mu-social-media h3 {
 	margin-top: 20px;
+	text-align: center;
 }
 
 .mu-social-media a {
 	border-radius: 50%;
 	display: inline-block;
-	font-size: 15px;
+	font-size: 20px;
 	border: 1px solid #333;
 	width: 35px;
 	height: 35px;
@@ -662,7 +690,21 @@ button:focus {
 	position: relative;
 }
 
+.mu-heading-title-2 {
+	color: white;
+	margin-bottom: 15px;
+	position: relative;
+}
+
 .mu-header-dot {
+	border-radius: 0;
+	height: 3px;
+	width: 75px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.mu-header-dot-2 {
 	border-radius: 0;
 	height: 3px;
 	width: 75px;
@@ -788,7 +830,7 @@ button:focus {
 /*--------------------*/
 
 #mu-testimonials {
-	background-image: url("assets/images/testimonials-bg.jpeg");
+	background-image: url("assets/images/background_analysis.jpg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;

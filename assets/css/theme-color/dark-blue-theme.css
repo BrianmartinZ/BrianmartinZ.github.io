@@ -15,15 +15,15 @@ Author URI : http://www.markups.io/
 .mu-simplefilter li.active,
 .mu-copy-right a:hover,
 .mu-copy-right a:focus {
-	color: #4568DC;
+	color: #3b6490;
 }
 
 .mu-send-msg-btn:hover,
 .mu-send-msg-btn:focus,
 .mu-social-media a:hover,
 .mu-social-media a:focus {
-	border: 1px solid #4568DC;
-	color: #4568DC;
+	border: 1px solid #3b6490;
+	color: #3b6490;
 }
 
 .mu-testimonial-slide .slick-dots li button:hover,
@@ -31,28 +31,33 @@ Author URI : http://www.markups.io/
 .mu-testimonial-slide .slick-dots li.slick-active button,
 .mu-resume-btn:hover,
 .mu-resume-btn:focus,
-.mu-header-dot,
+.mu-header-dot {
+	background-color: #1b1c29;
+}
+.mu-header-dot-2 {
+	background-color: white;
+}
 .mu-filter-item-content,
 .mu-contact-top-single .mu-icon,
 .mu-skill-progress-bar .mu-pro-bar,
-#mu-featured-slider,
+/*#mu-featured-slider,*/
 #mu-header.mu-fixed-nav {
-	background-color: #4568DC;
+	background-color: #3b6490;
 }
 
 .mu-contact-form .form-control:focus {
-	border: 1px solid #4568DC;    
+	border: 1px solid #3b6490;    
 } 
 
 .mu-resume-btn,
 .mu-service-icon-box {
-	border: 2px solid #4568DC;
-	color: #4568DC;
+	border: 2px solid #3b6490;
+	color: #3b6490;
 }
 
 
 .mu-pro-bar .proggress {
-	background-color: #4568DC !important;
+	background-color: #3b6490 !important;
 }
 
 
