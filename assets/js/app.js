@@ -19,6 +19,7 @@ $(function() {
 			type: 'POST',
 			url: $(form).attr('action'),
 			data: formData
+			dataType: 'json'
 		})
 		.done(function(response) {
 			// Make sure that the formMessages div has the 'success' class.
