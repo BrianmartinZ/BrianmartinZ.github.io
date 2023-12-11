@@ -785,6 +785,15 @@ button:focus {
     border-color: #fff;
 }
 
+.mu-media-content {
+	margin-bottom: -50px;
+	margin-top: -50px;
+}
+
+.mu-primer-p {
+	padding-bottom: 50px;
+}
+
 
 /*--------------------*/
 /* CLIENT TESTIMONIALS */
