@@ -459,6 +459,7 @@ button:focus {
 	margin-top: 70px;
 	padding: 20px;
 	width: 100%;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .mu-about-content-left {
