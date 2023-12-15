@@ -786,13 +786,47 @@ button:focus {
 }
 
 .mu-media-content {
-	margin-bottom: -50px;
-	margin-top: -50px;
+	position: relative;
+	margin-bottom: 50px;
+	width: 100%;
+	padding-bottom: 56.25%; /* Proporción 16:9 (ajusta esto según el aspecto del video) */
+	overflow: hidden;
+}
+  
+.mu-media-content iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .mu-primer-p {
 	padding-bottom: 50px;
 }
+
+.mu-title-sec-course h5 {
+	margin-top: 30px;
+	color: #1c1b1b;
+	display: flex;
+	justify-content: center; /* Centra horizontalmente */
+	align-items: center; /* Centra verticalmente */
+}
+
+.mu-title-sec-course p {
+	margin-top: -10px;
+	color: #1c1b1b;
+	display: flex;
+	justify-content: center; /* Centra horizontalmente */
+	align-items: center; /* Centra verticalmente */
+
+
+}
+
+.mu-social-media h3 {
+	margin-top: 50px;
+}
+  
 
 
 /*--------------------*/
